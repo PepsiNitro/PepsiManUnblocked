@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CycloaJS: JavaScript NES Emulator</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/style.css">
+	<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script> -->
+	<script type="text/javascript" src="js/lib/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="build/cycloa.js"></script>
+	<!--
+	<script type="text/javascript" src="js/lib/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="js/cycloa/cycloa.js"></script>
+	<script type="text/javascript" src="js/cycloa/trace.js"></script>
+	<script type="text/javascript" src="js/cycloa/err.js"></script>
+	<script type="text/javascript" src="js/cycloa/util.js"></script>
+	<script type="text/javascript" src="js/cycloa/default_fairy.js"></script>
+	<script type="text/javascript" src="js/cycloa/fast.js"></script>
+	<script type="text/javascript" src="js/fairy.js"></script>
+	<script type="text/javascript" src="js/interface.js"></script>
+	-->
+</head>
+<body style="background-color:black;">
+<div id="background">
+
+	<style>
+
+		/* (B) FLICKER ANIMATION */
+		@keyframes flicker {
+		  from {
+			text-shadow:
+			0 0 5px blue,0 0 10px blue,
+			0 0 20px blue, 0 0 40px blue;
+		  }
+		  to {
+			text-shadow:
+			0 0 5px blue, 0 0 10px blue,
+			0 0 20px cyan, 0 0 40px cyan;
+		  }
+		}
+		
+		.flick { animation: flicker 1s ease-in-out infinite alternate; }
+		</style>
+      <div><h2><h1 class="flick"><center>JavaScript NES Emulator: CycloaJS</center></h1></h2></div>
+
+</div>
+<div id="wrapper">
+	<div id="header">
+	</div>
+	<div id="content">
+		<div>
+			<p>Please drag &amp; drop your .NES game or select a homebrew game below.</p>
+		</div>
+		<label for="rom_sel"></label>
+		<select id="rom_sel">
+			<option value="">Select...</option>
+			<option value="roms/alter_ego/Alter_Ego.nes">Alter Ego</option>
+			<option value="roms/thwaite-0.03/thwaite.nes">thwaite</option>
+			<option value="roms/croom/croom.nes">Concentration Room</option>
+			<option value="roms/lj65/lj65.nes">LJ65</option>
+		</select>
+		<div id="interface_box" class="control_box">
+			<input id="screen_zoom" type="button" value="zoom in/out" />
+		</div>
+		<div id="control_box" class="control_box">
+			<input id="nes_hardreset" type="button" value="HardReset"/>
+			<input id="nes_reset" type="button" value="Reset"/>
+			<input id="nes_stop" type="button" value="Stop"/>
+			<input id="nes_start" type="button" value="Start"/>
+		</div>
+		<div class="nes_screen_wrapper" id="nes_screen_wrapper">
+			<canvas id="nes_screen" width="256" height="240"></canvas>
+		</div>
+		<div id="state" class="control_box"></div>
+		<hr>
+		<div>
+		</body>
+	</head>
+	</html>
