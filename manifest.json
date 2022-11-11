@@ -1,23 +1,22 @@
 {
 	"name": "PepsiManUnblocked",
 	"short_name": "PepsiMan",
-	"description": "My Game Website Because School Sucks",
-	"version": "1",
-	"start_url": "/index.html",
-	"display": "fullscreen",
-	"orientation": "any",
+	"description": "yeah...",
 	"icons": [
-		{
-			"src": "/img/icon-196.png",
-			"type": "image/png",
-			"sizes": "196x196"
-
-		},
-
-		{
-			"src": "/img/icon-512.png",
-			"type": "image/png",
-			"sizes": "512x512"
-		  }
-	]
-}
+	  {
+		"src": "img/Icon-196.png",
+		"sizes": "196x196",
+		"type": "image/png"
+	  },
+	  {
+		"src": "img/Icon-512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	  }
+	],
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"theme_color": "#0100FF",
+	"background_color": "#0100FF"
+  }
+  
