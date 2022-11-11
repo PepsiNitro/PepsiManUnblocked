@@ -3,7 +3,7 @@
 	"short_name": "PepsiMan",
 	"description": "My Game Website Because School Sucks",
 	"version": "1",
-	"start_url": "index.html",
+	"start_url": "/index.html",
 	"display": "fullscreen",
 	"orientation": "any",
 	"icons": [
