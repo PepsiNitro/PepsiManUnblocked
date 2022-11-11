@@ -8,9 +8,16 @@
 	"orientation": "any",
 	"icons": [
 		{
-			"src": "img/favicon.ico",
-			"sizes": "256x256",
-			"type": "image/x-icon"
-		}
+			"src": "/img/icon-196.png",
+			"type": "image/png",
+			"sizes": "196x196"
+
+		},
+
+		{
+			"src": "/img/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		  }
 	]
 }
