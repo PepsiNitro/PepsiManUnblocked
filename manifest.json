@@ -1,22 +1,22 @@
 {
 	"name": "PepsiManUnblocked",
 	"short_name": "PepsiMan",
-	"description": "yeah...",
+	"lang": "en-US",
+	"start_url": "/https://bsharp27.github.io/PepsiManUnblocked/index.html",
+	"display": "fullscreen",
+	"theme_color": "#0100FF",
 	"icons": [
 	  {
-		"src": "img/Icon-196.png",
+		"src": "Icon-196.png",
 		"sizes": "196x196",
 		"type": "image/png"
 	  },
 	  {
-		"src": "img/Icon-512.png",
+		"src": "Icon-512.png",
 		"sizes": "512x512",
 		"type": "image/png"
 	  }
 	],
-	"start_url": "index.html",
-	"display": "fullscreen",
-	"theme_color": "#0100FF",
-	"background_color": "#0100FF"
+	"background_color": "#000000",
+	"prefer_related_applications": true
   }
-  
