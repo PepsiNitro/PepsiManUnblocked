@@ -2,13 +2,13 @@
 	"name": "PepsiManUnblocked",
 	"short_name": "PepsiMan",
 	"lang": "en-US",
-	"start_url": "/https://bsharp27.github.io/PepsiManUnblocked/index.html",
+	"start_url": "/index.html",
 	"display": "fullscreen",
 	"theme_color": "#0100FF",
 	"icons": [
 	  {
-		"src": "img/Icon-196.png",
-		"sizes": "196x196",
+		"src": "img/Icon-192.png",
+		"sizes": "192x192",
 		"type": "image/png"
 	  },
 	  {
