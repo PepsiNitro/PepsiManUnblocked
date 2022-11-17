@@ -3,6 +3,8 @@
   <head>
     <title>Pepsi_Man | Games</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script src="/track/TabCounter.js"></script>
+
   </head>
 
   <body style="background-color:black;">
@@ -916,15 +918,30 @@
       }
     </style>
 
+
 <hr style="height:3px;border-width:0;color:blue;background-color:blue">
 
 <a href="chat.html">
-  <button class="button">Chat Room</button></a>
+  <button class="button">Chat Room</button></a><font color="blue"><h1>[Currently Disabled]</h1></font>
   
 <hr style="height:3px;border-width:0;color:blue;background-color:blue">
 
 
 <div><font color="blue"><h1>Visits Counter</h1><img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fbsharp27.github.io%2FPepsiManUnblocked%2Findex.html&s=50&c=0400ff&bg=00000000&no=5&ff=digi" alt="visits"></font></div>
+
+<hr style="height:3px;border-width:0;color:blue;background-color:blue">
+
+
+<font color="blue"><div>
+  <h1>Number of Users On Website</h1>
+  <h1><span class="count"></span></h1>
+</div>
+<script>
+  tabCount.onTabChange(function(count){
+      document.querySelector(".count").innerText=count;
+  },true);
+</script>
+</font>
 
   </body>
 </html>
